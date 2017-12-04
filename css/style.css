@@ -1,17 +1,15 @@
-container {
-	width: 100%;
-	font-family: segoe ui light;
-	max-width: 1900px;
-	min-height: 780px;
-	margin: 0 auto;
+html {
+ overflow-x: hidden;
 }
 h1.menu {
 	font-family: segoe ui light;
 	white-space:nowrap;
+	color: #5891A7;
 	font-size: 22px;
 	position: relative;
 	top: -62px;
 	right: -30px;
+	text-decoration: none;
 }
 h2.menu {
 	font-family: segoe ui light;
@@ -21,6 +19,7 @@ h2.menu {
 	position: relative;
 	top: -90px;
 	right: -200px;
+	text-decoration: none;
 }
 h3.menu {
 	font-family: segoe ui light;
@@ -31,6 +30,7 @@ h3.menu {
 	position: relative;
 	top: -120px;
 	right: -430px;
+	text-decoration: none;
 }
 h4.main {
 	white-space:nowrap;
@@ -109,6 +109,9 @@ h6.lower {
 	color: #black;
 	font-family: segoe ui light;
 }
+footer {
+	 bodyscroll: no;
+}
 
 img.wrap{
 	white-space:nowrap;
@@ -118,5 +121,9 @@ img.wrap{
 }
 #onepound {
 	position: fixed;
+}
+#middle {
+    height: 300px;
+    width: 300px;
 }
 
